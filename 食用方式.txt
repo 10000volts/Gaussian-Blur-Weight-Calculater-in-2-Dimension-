@@ -1,0 +1,13 @@
+二维高斯模糊权重计算 by 666Volts
+TH：模糊的延伸距离。
+A：误差调整系数。
+
+食用方式：
+可以修改TH及i、j的循环范围。
+之后把A赋值为1.0，编译运行。
+while(sum != 1){
+A = A / sum;
+编译运行;
+}
+
+参考资料：https://www.cnblogs.com/JohnShao/archive/2011/06/02/2067800.html
